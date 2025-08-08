@@ -23,7 +23,6 @@ const ContactFaqTabs = () => {
         }
     }, [activeTab]);
 
-
     return (
         <section id='contact' className="mx-auto py-12 px-4">
             <h2 className="text-3xl text-indigo-600 font-bold text-center mb-10">
