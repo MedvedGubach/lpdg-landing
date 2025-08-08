@@ -9,6 +9,8 @@ import Modalities from "@/components/Modalities";
 import ContactFaqTabs from "@/components/ContactFaqTabs";
 import Footer from "@/components/Footer";
 import ReviewsTabs from "@/components/ReviewsTabs";
+import { Analytics } from '@vercel/analytics/next';
+
 export default function Home() {
   return (
     <>
@@ -37,7 +39,7 @@ export default function Home() {
           <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[radial-gradient(ellipse_50%_50%_at_30%_80%,rgba(150,200,255,0.1),transparent)]" />
           <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(45deg, rgba(0,0,0,0.03) 25%, transparent 25%, transparent 50%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.03) 75%, transparent 75%, transparent)] bg-size-[30px_30px]" />
         </div>
-
+        <Analytics />
         <Navbar />
         <Hero />
         <About />
