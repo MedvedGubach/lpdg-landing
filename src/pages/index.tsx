@@ -16,7 +16,8 @@ export default function Home() {
     <>
       <Head>
 
-        <link rel="icon" type="image/webp" href="/images/LPDGLogo.webp" />
+        {/* Favicon */}
+        <link rel="icon" type="image/webp" href="/LPDGFavicon.ico" />
         <title>Lecciones Prácticas de Guitarra - Butch García</title>
         <meta name="description" content="Aprende a tocar guitarra acústica o eléctrica con Butch García. Lecciones prácticas y personalizadas, tocando la música que amas." />
         <meta name="keywords" content="lecciones de guitarra, guitarra eléctrica, guitarra acústica, clases de guitarra, Butch García, maestro de guitarra, maestro de guitarra en Guadalajara" />
