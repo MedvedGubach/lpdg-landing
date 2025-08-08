@@ -18,7 +18,8 @@ const Footer = () => {
                         <FaYoutube className="text-red-500 text-3xl hover:opacity-80 transition hover:scale-120" />
                     </a>
                 </div>
-                <p className="text-sm text-gray-600">© {year} Armando "Butch" García. Lecciones Prácticas de Guitarra. Todos los derechos reservados</p>
+
+                <p className="text-sm text-gray-600">© {year} Armando &quot;Butch&quot; García. Lecciones Prácticas de Guitarra. Todos los derechos reservados</p>
             </div>
         </footer>
     )
