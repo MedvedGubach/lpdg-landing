@@ -31,6 +31,53 @@ export default function Home() {
         <meta property="og:image" content="https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754505654/LPDGThumbnail_vyvutp.webp" />
         <meta property="og:url" content="https://leccionespracticasdeguitarra.vercel.app" />
         <meta property="og:site_name" content="Lecciones Prácticas de Guitarra" />
+
+        {/* JSON_LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MusicSchool",
+              "name": "Lecciones Prácticas de Guitarra - Butch García",
+              "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754505654/LPDGThumbnail_vyvutp.webp",
+              "@id": "https://leccionespracticasdeguitarra.vercel.app",
+              "url": "https://leccionespracticasdeguitarra.vercel.app",
+              "telephone": "+52-33-1088-2137",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Clases de guitarra presenciales en zona metropolitana de Guadalajara",
+                "addressLocality": "Guadalajara",
+                "addressRegion": "Jalisco",
+                "postalCode": "44100",
+                "addressCountry": "MX"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.6736,
+                "longitude": -103.344
+              },
+              "sameAs": [
+                "https://www.facebook.com/leccionespracticasdeguitarra",
+                "https://www.instagram.com/leccionespracticasdeguitarra/",
+                "https://www.youtube.com/c/LeccionesPr%C3%A1cticasdeGuitarraButchGarc%C3%ADa"
+              ],
+              "description": "Aprende a tocar guitarra acústica o eléctrica con Butch García. Lecciones prácticas y personalizadas, tocando la música que amas.",
+              "founder": {
+                "@type": "Person",
+                "name": "Butch García"
+              },
+              "offers": {
+                "@type": "Offer",
+                "price": "Consulta precios",
+                "priceCurrency": "MXN",
+                "availability": "https://schema.org/InStock",
+                "url": "https://leccionespracticasdeguitarra.vercel.app#contact"
+              }
+            }),
+          }}
+        />
+
       </Head>
 
       <main>

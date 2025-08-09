@@ -10,6 +10,7 @@ const Hero = () => {
         <section className="flex flex-col py-32 justify-center items-center text-center px-4 border-b border-neutral-400">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
                 <div className="space-y-6">
+
                     <motion.h1
                         className="text-4xl md:text-6xl font-bold leading-tight text-center"
                         viewport={{ once: true }}
@@ -17,13 +18,15 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                     >
-                        <motion.span className="block">Lecciones Prácticas</motion.span>
-                        <motion.span className="block">de Guitarra</motion.span>
-                        <motion.span className="block">con</motion.span>
-                        <motion.span className="block text-indigo-600">Butch García</motion.span>
+                        <span className="sr-only">Lecciones Prácticas de Guitarra - Butch García</span>
+                        <span aria-hidden="true" className="block">Lecciones Prácticas</span>
+                        <span aria-hidden="true" className="block">de Guitarra</span>
+                        <span aria-hidden="true" className="block">con</span>
+                        <span aria-hidden="true" className="block text-indigo-600">Butch García</span>
                     </motion.h1>
 
-                    <motion.p className="text-lg text-black"
+                    <motion.p
+                        className="text-lg text-black"
                         viewport={{ once: true }}
                         variants={container(0.5)}
                         initial="hidden"
@@ -32,8 +35,8 @@ const Hero = () => {
                         Clases 100% prácticas con <strong>Butch García</strong>, músico con más de 10 años de experiencia como docente.
                         Tú eliges el estilo, el ritmo y las canciones. Desde cero o para mejorar tu técnica.
                         Aprende guitarra <span className="text-indigo-600 font-semibold">tocando la música que amas</span>
-
                     </motion.p>
+
                     <motion.div
                         className="flex justify-center md:justify-center gap-4"
                         viewport={{ once: true }}
@@ -43,14 +46,14 @@ const Hero = () => {
                     >
                         <a
                             href="#reviews"
-                            className="bg-indigo-600  text-white py-3 px-6  shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                            className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
                         >
                             Ver testimonios
                         </a>
 
                         <a
                             href="#contact"
-                            className="bg-indigo-600  text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                            className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
                         >
                             ¡Agendar clase ahora!
                         </a>
