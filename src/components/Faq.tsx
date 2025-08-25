@@ -3,7 +3,6 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Faq = () => {
-
     const questions = [
         {
             question: "¿Necesito tener experiencia previa con la guitarra?",
@@ -21,7 +20,7 @@ const Faq = () => {
             question: "¿Puedo elegir las canciones que quiero aprender?",
             answer: "¡Por supuesto! La metodología está centrada en que aprendas tocando la música que te gusta.",
         },
-    
+
     ];
 
     const [activeIndex, setActiveIndex] = useState<number | null>(null);

@@ -18,7 +18,7 @@ const Reviews = () => {
         },
         {
             video: "https://res.cloudinary.com/df9znr8oq/video/upload/v1754099842/ReviewVideo3_ditvjz_i9e0ze.webm"
-        }, 
+        },
         {
             video: "https://res.cloudinary.com/df9znr8oq/video/upload/v1754099850/ReviewVideo4_n6eyo2_sv7z6e.mp4"
         },
@@ -63,7 +63,7 @@ const Reviews = () => {
                                 className="bg-neutral-200 w-full sm:w-[300px] rounded-xl p-6 shadow-md flex flex-col justify-between min-h-[400px]"
                             >
                                 <div className="w-full aspect-video">
-                                    <video src={review.video} controls autoPlay={false}
+                                    <video data-testid="review-videos" src={review.video} controls autoPlay={false}
                                         className="w-full h-full object-cover rounded-lg"
                                     />
                                 </div>

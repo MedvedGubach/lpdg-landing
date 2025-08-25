@@ -62,6 +62,7 @@ const Hero = () => {
 
                 <div className="w-full flex justify-center overflow-hidden">
                     <video
+                        data-testid="intro-video"
                         controls
                         autoPlay={false}
                         controlsList="nodownload"

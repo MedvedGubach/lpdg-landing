@@ -19,7 +19,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <p className="text-sm text-gray-600">© {year} Armando &quot;Butch&quot; García. Lecciones Prácticas de Guitarra. Todos los derechos reservados</p>
+                <p data-testid="footer-paragraph" className="text-sm text-gray-600">© {year} Armando &quot;Butch&quot; García. Lecciones Prácticas de Guitarra. Todos los derechos reservados</p>
             </div>
         </footer>
     )
