@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'motion/react';
 
+
+
 const About = () => {
     const aboutText = [
         'Armando García, mejor conocido como "Butch" es originario de Guadalajara y ha colaborado más de 25 años como guitarrista en la escena musical y ha sido parte de múltiples proyectos como Retrete (1997) Cadáver (2003), B Chaos (2012), DonSr (2006) y Janet Camargo (2018). Además ha compartido escenario con figuras de alto calibre como Nightwish, In Flames, Molotov, Cannibal Corpse, Abbath, Dave Evans (AC/DC), entre muchos otros.',
@@ -12,7 +14,7 @@ const About = () => {
         'Desde 2014, imparte clases de guitarra centradas en el género musical de la elección del alumno. Su enfoque personalizado permite que cada alumno aprenda a su ritmo, con la música de su agrado, desarrollando técnica, expresión y confianza.',
     ]
 
-    const images = ['/images/ButchPlaying.webp', '/images/ButchPlaying2.webp', 'https://res.cloudinary.com/df9znr8oq/image/upload/v1754535229/Imagen_300ppi_a83xab.png'];
+    const images = ['/images/ButchPlaying.webp', '/images/ButchPlaying2.webp', '/images/ButchPlayingH&H.webp', 'https://res.cloudinary.com/df9znr8oq/image/upload/v1754535229/Imagen_300ppi_a83xab.png'];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {

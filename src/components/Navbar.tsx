@@ -22,6 +22,7 @@ const Navbar = () => {
                         <FaYoutube className="text-red-500 text-xl md:text-3xl hover:opacity-80 transition hover:scale-120" />
                     </a>
                 </div>
+
             </nav>
         </header>
     )
