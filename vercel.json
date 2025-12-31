@@ -1,8 +1,0 @@
-{
-    "build": {
-        "env": {
-            "SKIP_TESTS": "true"
-        }
-    },
-    "ignoreCommand": "echo 'Skipping tests for Vercel build.'"
-}
