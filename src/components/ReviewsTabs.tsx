@@ -100,7 +100,6 @@ const ReviewsTabs = () => {
 
                 {activeTab === "reviews" && isClient && (
 
-
                     <motion.div
                         key="reviews"
                         initial={{ opacity: 0 }}
@@ -112,7 +111,6 @@ const ReviewsTabs = () => {
                         <div className="flex justify-center items-center">
                             <img src="/images/ReviewsLPDG.png" alt='ReviewsLPDG' height={512} width={512} />
                         </div>
-
 
                         {!isWidgetLoaded && (
                             <div className="flex justify-center items-center py-20">
