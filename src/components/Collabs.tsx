@@ -37,8 +37,12 @@ const Collabs = () => {
             </div>
 
             <div className="text-center mt-8">
-                <a href="https://www.youtube.com/watch?v=7HtKGyw-ZAM&list=PLtK56D8BA36vxNynwC1MkrXSfXkf0-nSR" aria-label='YouTube' target="_blank" rel="noopener noreferrer">
-                    <span className="text-indigo-600 font-bold underline underline-offset-1" >Ver más Colaboraciones</span>
+                <a
+                    href="https://www.youtube.com/playlist?list=PLtK56D8BA36vxNynwC1MkrXSfXkf0-nSR"
+                    target="_blank"
+                    className="bg-blue-600  text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                >
+                    Participaciones Músicales
                 </a>
             </div>
         </section>

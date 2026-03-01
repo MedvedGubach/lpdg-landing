@@ -38,25 +38,39 @@ const Hero = () => {
                     </motion.p>
 
                     <motion.div
-                        className="flex justify-center md:justify-center gap-4"
+                        className="flex flex-col items-center md:justify-center space-y-4"
                         viewport={{ once: true }}
                         variants={container(0.7)}
                         initial="hidden"
                         animate="visible"
                     >
-                        <a
-                            href="#reviews"
-                            className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
-                        >
-                            Ver testimonios
-                        </a>
 
-                        <a
-                            href="#contact"
-                            className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
-                        >
-                            ¡Agendar clase ahora!
-                        </a>
+                        <div className="flex space-x-4">
+                            <a
+                                href="#reviews"
+                                className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                            >
+                                Ver testimonios
+                            </a>
+
+                            <a
+                                href="#contact"
+                                className="bg-indigo-600 text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                            >
+                                ¡Agendar clase ahora!
+                            </a>
+                        </div>
+
+                        <div className="flex justify-center w-full">
+                            <a
+                                href="https://www.youtube.com/playlist?list=PLtK56D8BA36vxNynwC1MkrXSfXkf0-nSR"
+                                target="_blank"
+                                className="bg-blue-600  text-white py-3 px-6 shadow-lg transition-all duration-300 hover:bg-indigo-800 rounded-full hover:scale-105 focus:outline-none"
+                            >
+                                Participaciones Músicales
+                            </a>
+                        </div>
+
                     </motion.div>
                 </div>
 
